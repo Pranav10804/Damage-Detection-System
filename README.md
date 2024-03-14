@@ -1,5 +1,8 @@
 # Cosmolligence
 ## Team Wall_E
+Model for 
+1. Detecting damage in images of destruction caused by disasters like Earthquakes/Tsunamis.
+2. Classifying the severity of damage in 5 classes.
 
 ## Datasets used during the project :- 
 
