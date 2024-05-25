@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Severity Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Average&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Average', serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bg-image-right {
+            background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <h1>Disaster Severity Detection</h1>
+        </div>
+    </header>
+
+    <div class="bg-image-right"></div>
+
+    <main>
+        <section>
+            <div class="content-wrapper">
+                <h2>Welcome</h2>
+                <p>Empowering communities with accurate disaster severity information. Our platform enables users to upload images, detect damaged areas, and classify them by analyzing the severity of the damage.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="content-wrapper">
+                <h2>Our Mission</h2>
+                <p>To provide timely and accurate data to help communities prepare and respond to disasters. By leveraging advanced image processing and machine learning technologies, we aim to make disaster management more efficient and effective.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="content-wrapper">
+                <h2>Get Started</h2>
+                <p>Explore our services and learn how we can assist you in disaster management. Our tools and resources are designed to help you better understand and respond to disaster scenarios.</p>
+                <div class="button-container">
+                    <a href="/submit"><button onclick="location.href='/upload/'">Learn More</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Disaster Severity Detection</p>
+    </footer>
+</body>
+</html>
