@@ -7,7 +7,7 @@ Website deploying models for
 User can submit images and have severity analysis as well as detection results.
 
 ### ML Model
-Computer Vision model YOLO( You Only Look Once) v7 is trained and deployed
+Computer Vision model YOLO (You Only Look Once) v7 is trained and deployed
 For inference, weights file 'best.pth' is used and the github repository https://github.com/WongKinYiu/yolov7​ must be cloned
 
 ### How to Use
